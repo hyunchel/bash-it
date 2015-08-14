@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# Load previous profile
+source $HOME/.bashrc
+source $HOME/.bash_profile.bak
+
 # Path to the bash it configuration
 export BASH_IT="$HOME/.bash_it"
 
